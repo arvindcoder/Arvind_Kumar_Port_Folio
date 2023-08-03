@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arvind Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Arvind Kumar</h3>
+        <ul>
+          <li>About Me</li>
+          <li>Skills</li>
+          <li>Projects</li>
+          <li>Contacts</li>
+        </ul>
+        <div>
+          <button><a href="https://www.linkedin.com/in/arvind-kumar-5a2532179/" target="_blank"><i class="fa fa-linkedin"></i></a></i></button>
+          <button><a href="https://github.com/arvindcoder" target="_blank"><i class="fa fa-github"></i></a></button>
+          <button>Contact Me</button>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="left-hero">
+        <img src="./main.png" alt="developer-image" />
+      </div>
+      <div class="right-text">
+        <h2>Hello! I am</h2>
+        <h2 class="name">Arvind Kumar</h2>
+        <span id="title">Front-end developer</span><br>
+        <!-- <h2 id="title">Front-end developer</h2> -->
+        <button class="resume">
+          <a href="./Resume.docx" class="no-underline" download>
+            <i class="fa fa-cloud-download"></i>Resume</a
+          >
+        </button>
+      </div>
+    </section>
+    <script>
+      var typed = new Typed("#title", {
+        strings: ["Front-End Developer", "UI Developer"],
+        typeSpeed: 80,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
